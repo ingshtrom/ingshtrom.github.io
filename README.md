@@ -1,3 +1,8 @@
+# inspiration
+
+http://redrussak.com/
+http://ianenders.com/
+
 # ideas
 
 * how my standup script works

@@ -50,7 +50,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : true # true, false (default)
+search                   : false # true, false (default)
 search_full_content      : true # true, false (default)
 search_provider          : lunr # lunr (default), algolia, google
 algolia:
@@ -97,25 +97,25 @@ analytics:
 author:
   name             : " "
   avatar           : "/assets/images/profile.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Brother in Christ, husband, father, and a passionate technologist."
+  bio              : "Follower of הוהי, husband, father, and a passionate technologist."
   #location         : "הוהי"
   #email            : "contact@alexhokanson.com"
-  links:
-    - label: "Son of יהוה" # the apostrophe thing should be at the end in the published view
-      icon: "fa-lg fas fa-fw fa-bible"
-      url: "https://crossroads.online/beliefs"
-    - label: "GitHub"
-      icon: "fa-lg fab fa-fw fa-github"
-      url: "https://github.com/ingshtrom"
-    - label: "Twitter"
-      icon: "fa-lg fab fa-fw fa-twitter"
-      url: "https://twitter.com/ingshtrom"
-    - label: "Keybase"
-      icon: "fa-lg fab fa-fw fa-keybase"
-      url: "https://keybase.io/ingshtrom"
-    - label: "Email"
-      icon: "fa-lg fas fa-fw fa-paper-plane"
-      url: "mailto:contact@alexhokanson.com"
+  #links:
+  #  - label: "Son of יהוה" # the apostrophe thing should be at the end in the published view
+  #    icon: "fa-lg fas fa-fw fa-bible"
+  #    url: "https://crossroads.online/beliefs"
+  #  - label: "GitHub"
+  #    icon: "fa-lg fab fa-fw fa-github"
+  #    url: "https://github.com/ingshtrom"
+  #  - label: "Twitter"
+  #    icon: "fa-lg fab fa-fw fa-twitter"
+  #    url: "https://twitter.com/ingshtrom"
+  #  - label: "Keybase"
+  #    icon: "fa-lg fab fa-fw fa-keybase"
+  #    url: "https://keybase.io/ingshtrom"
+  #  - label: "Email"
+  #    icon: "fa-lg fas fa-fw fa-paper-plane"
+  #    url: "mailto:contact@alexhokanson.com"
 
 
 # Site Footer
@@ -133,6 +133,9 @@ footer:
     - label: "Email"
       icon: "fas fa-fw fa-paper-plane"
       url: "mailto:contact@alexhokanson.com"
+    - label: "Resume"
+      icon: "fas fa-fw fa-file-pdf"
+      url: "/resume.pdf"
 
 
 # Reading Files

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "FSTF: GitHub Pages with Jekyll and Plugins"
 date:   2014-04-27 12:12:00
 categories: jekyll fstf series github guide

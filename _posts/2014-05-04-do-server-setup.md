@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "DigitalOcean VPS Setup"
 date:   2014-05-04 12:22:00
 categories: guide digital-ocean ubuntu vps server-setup security mail postfix iptables tripwire
