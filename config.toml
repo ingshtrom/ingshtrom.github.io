@@ -51,7 +51,8 @@ pygmentscodefencesguesssyntax = true
     title = "Docker, Inc"
     startDate = "March, 2018"
     endDate = "current"
-    content = 'I like working at <a href="https://docker.com/careers/">Docker</a>!'
+    content = |-
+      I like working at <a href="https://docker.com/careers/">Docker</a>!'
     background = "dark-bg"
     weight = 0
 [[params.historyCard]]

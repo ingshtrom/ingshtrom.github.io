@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="author" content="{{site.data.config.author}}" />
+    <meta name="description" content="{{site.data.config.description" />
+    <meta name="keywords" content="{{site.data.config.keywords}}" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="${site.data.config.global.title}}" />
+    <meta
+      name="twitter:description"
+      content="{{site.data.config.description}}"
+    />
+
+    <meta property="og:title" content="{{site.data.config.title}}" />
+    <meta
+      property="og:description"
+      content="{{site.data.config.title}}&#39;s personal website"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://localhost:1313/" />
+    <meta property="og:updated_time" content="{{page.last-modified-date}}" />
+
+    <base href="http://localhost:1313/" />
+
+    <title>{{site.data.config.title}}</title>
+
+    <link rel="canonical" href="http://localhost:1313/" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="http://localhost:1313/css/coder.css"
+      media="screen"
+    />
+
+    <link
+      rel="stylesheet"
+      href="http://localhost:1313/css/coder-dark.css"
+      media="screen"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      href="http://localhost:1313/img/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="http://localhost:1313/img/favicon-16x16.png"
+      sizes="16x16"
+    />
+
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      href="http://localhost:1313/index.xml"
+      title="{{site.data.config.title}}"
+    />
+    <meta name="generator" content="Hugo 0.70.0" />
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    {{ content }}
+  </body>
+</html>
